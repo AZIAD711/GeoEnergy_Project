@@ -135,3 +135,62 @@ a:hover {
     text-decoration: underline;
 }
 }
+/* TABLETS */
+@media (max-width: 768px) {
+    body {
+        padding: 24px;
+    }
+
+    form {
+        max-width: 380px;
+        padding: 32px;
+        gap: 16px;
+    }
+}
+
+/* MOBILE PHONES */
+@media (max-width: 480px) {
+    body {
+        padding: 16px;
+    }
+
+    form {
+        max-width: 100%;
+        padding: 24px 18px;
+        gap: 14px;
+    }
+
+    form h2 {
+        margin-bottom: 12px;
+    }
+
+    form .email-input,
+    form .full-name,
+    form .phone-input,
+    form .password-input {
+        margin-bottom: 8px;
+    }
+
+    form .links {
+        font-size: 13px;
+    }
+
+    form p {
+        font-size: 13px;
+    }
+
+    form button {
+        padding: 12px;
+    }
+}
+
+/* VERY SMALL PHONES */
+@media (max-width: 320px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 20px 12px;
+    }
+}
