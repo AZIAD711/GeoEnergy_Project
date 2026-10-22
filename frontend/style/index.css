@@ -1,0 +1,132 @@
+/* DEFAULT STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* SELECTION STYLE */
+::selection {
+    background-color: #61C3E9;
+    color: #fff;
+}
+
+/* BODY STYLES */
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* FORM STYLES */
+form {
+    background-color: #fff;
+    border: 2px solid #61C3E9;
+    width: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #61C3E9;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    /* transition-duration: 0.6s;
+    transform: scale(1); */
+    #logo {
+        display: block;
+        margin: 0 auto 2px auto;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+/* INPUTS FILEDS STYLES */
+.email-input,
+.password-input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #61C3E9;
+        box-sizing: border-box;
+    }
+
+    img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+    }
+}
+
+.password-input {
+    input {
+        padding-right: 40px;
+    }
+
+    img {
+        right: 12px;
+        cursor: pointer;
+    }
+}
+
+.email-input {
+    input {
+        padding-left: 36px;
+    }
+
+    img {
+        left: 8px;
+    }
+}
+/* LINKS STYLES */
+.links {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    font-size: 14px;  
+    gap: 10px;
+    a{
+        color: #61C3E9;  
+        font-weight: bold;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+/* LOGIN BUTTON STYLES */
+button {
+    background-color: #61C3E9;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.6s;
+    width: 100%;
+}
+button:hover {
+    background-color: #70a0d7;
+}
+/* CREATE ACCOUNT LINK STYLES */
+p {
+    font-size: 14px;
+    text-align: center;
+}
+a {
+    color: #61C3E9;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+}
